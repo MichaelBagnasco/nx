@@ -14,7 +14,8 @@
         "aliases": ["name", "projectName"],
         "description": "Project for which to generate stories.",
         "$default": { "$source": "projectName", "index": 0 },
-        "x-prompt": "For which project do you want to generate stories?"
+        "x-prompt": "For which project do you want to generate stories?",
+        "x-priority": "important"
       },
       "ignorePaths": {
         "type": "array",

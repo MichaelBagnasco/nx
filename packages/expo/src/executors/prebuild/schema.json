@@ -17,7 +17,8 @@
       "description": "Platforms to sync",
       "default": "all",
       "enum": ["ios", "android", "all"],
-      "alias": "p"
+      "alias": "p",
+      "x-priority": "important"
     },
     "template": {
       "type": "string",

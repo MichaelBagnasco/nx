@@ -15,7 +15,8 @@
         "index": 0
       },
       "x-prompt": "For which project do you want to generate Storybook configuration?",
-      "x-dropdown": "projects"
+      "x-dropdown": "projects",
+      "x-priority": "important"
     },
     "generateStories": {
       "type": "boolean",

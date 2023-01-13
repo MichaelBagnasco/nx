@@ -7,11 +7,11 @@
   "type": "object",
   "examples": [
     {
-      "command": "nx g component my-component --project=mylib",
+      "command": "nx g @nrwl/react-native:component my-component --project=mylib",
       "description": "Generate a component in the `mylib` library"
     },
     {
-      "command": "nx g component my-component --project=mylib --classComponent",
+      "command": "nx g @nrwl/react-native:component my-component --project=mylib --classComponent",
       "description": "Generate a class component in the `mylib` library"
     }
   ],
@@ -23,7 +23,8 @@
       "$default": {
         "$source": "projectName"
       },
-      "x-prompt": "What is the name of the project for this component?"
+      "x-prompt": "What is the name of the project for this component?",
+      "x-priority": "important"
     },
     "name": {
       "type": "string",
@@ -32,7 +33,8 @@
         "$source": "argv",
         "index": 0
       },
-      "x-prompt": "What name would you like to use for the component?"
+      "x-prompt": "What name would you like to use for the component?",
+      "x-priority": "important"
     },
     "js": {
       "type": "boolean",
@@ -58,7 +60,8 @@
       "description": "When true, the component is exported from the project `index.ts` (if it exists).",
       "alias": "e",
       "default": false,
-      "x-prompt": "Should this component be exported in the project?"
+      "x-prompt": "Should this component be exported in the project?",
+      "x-priority": "important"
     },
     "pascalCaseFiles": {
       "type": "boolean",

@@ -15,7 +15,8 @@
         "$source": "projectName",
         "index": 0
       },
-      "x-prompt": "What's the name of the project where the component lives?"
+      "x-prompt": "What's the name of the project where the component lives?",
+      "x-priority": "important"
     },
     "componentPath": {
       "type": "string",

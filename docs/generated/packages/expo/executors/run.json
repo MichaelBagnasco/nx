@@ -15,12 +15,14 @@
         "description": "Platform to run for (ios, android).",
         "enum": ["ios", "android"],
         "default": "ios",
-        "alias": "p"
+        "alias": "p",
+        "x-priority": "important"
       },
       "xcodeConfiguration": {
         "type": "string",
         "description": "(iOS) Xcode configuration to use. Debug or Release",
-        "default": "Debug"
+        "default": "Debug",
+        "x-priority": "important"
       },
       "scheme": {
         "type": "string",
@@ -29,7 +31,8 @@
       "variant": {
         "type": "string",
         "description": "(Android) Specify your app's build variant (e.g. debug, release).",
-        "default": "debug"
+        "default": "debug",
+        "x-priority": "important"
       },
       "device": {
         "type": "string",

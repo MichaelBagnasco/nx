@@ -19,7 +19,8 @@
       "type": {
         "enum": ["app-bundle", "apk"],
         "description": "Type of build: [app-bundle⎮apk].",
-        "alias": "t"
+        "alias": "t",
+        "x-priority": "important"
       },
       "releaseChannel": {
         "type": "string",

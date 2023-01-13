@@ -21,7 +21,8 @@
       "type": "number",
       "description": "Port to start the native Metro bundler on (does not apply to web or tunnel)",
       "default": 19000,
-      "alias": "p"
+      "alias": "p",
+      "x-priority": "important"
     },
     "clear": {
       "type": "boolean",
@@ -55,17 +56,20 @@
     "android": {
       "type": "boolean",
       "description": "Opens your app in Expo Go on a connected Android device",
-      "alias": "a"
+      "alias": "a",
+      "x-priority": "important"
     },
     "ios": {
       "type": "boolean",
       "description": "Opens your app in Expo Go in a currently running iOS simulator on your computer",
-      "alias": "i"
+      "alias": "i",
+      "x-priority": "important"
     },
     "web": {
       "type": "boolean",
       "description": " Opens your app in a web browser",
-      "alias": "w"
+      "alias": "w",
+      "x-priority": "important"
     },
     "host": {
       "type": "string",

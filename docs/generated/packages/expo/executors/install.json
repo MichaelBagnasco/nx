@@ -16,7 +16,8 @@
         "items": { "type": "string" },
         "default": [],
         "description": "The names of packages to install",
-        "$default": { "$source": "argv", "index": 0 }
+        "$default": { "$source": "argv", "index": 0 },
+        "x-priority": "important"
       },
       "check": {
         "type": "boolean",

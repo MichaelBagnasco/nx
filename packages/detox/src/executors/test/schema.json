@@ -21,18 +21,21 @@
         "ios.sim.release",
         "android.emu.debug",
         "android.emu.release"
-      ]
+      ],
+      "x-priority": "important"
     },
     "buildTarget": {
       "type": "string",
-      "description": "Target which builds the application."
+      "description": "Target which builds the application.",
+      "x-priority": "important"
     },
     "configPath": {
       "type": "string",
       "description": "Specify Detox config file path. If not supplied, detox searches for `.detoxrc[.js]` or `detox` section in package.json.",
       "alias": "cp",
       "x-completion-type": "file",
-      "x-completion-glob": ".detoxrc?(.js)"
+      "x-completion-glob": ".detoxrc?(.js)",
+      "x-priority": "important"
     },
     "runnerConfig": {
       "type": "string",
